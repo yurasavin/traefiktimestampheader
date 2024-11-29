@@ -1,0 +1,12 @@
+displayName: Timestamp Header
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/yurasavin/traefiktimestampheader
+
+summary: 'Add current timestamp header to requests'
+
+testData:
+  Headers:
+    X-Demo: test
+    X-URL: '{{URL}}'
